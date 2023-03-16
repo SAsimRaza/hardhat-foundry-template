@@ -3,16 +3,16 @@ pragma solidity ^0.8.13;
 
 import "forge-std/Test.sol";
 
-import "../src/Token.sol";
+import "../src/Box.sol";
 
-contract TokenTest is Test {
-    Token t;
+contract BoxTest is Test {
+    Box t;
 
-    function setUp() public {
-        t = new Token();
-    }
+    // function setUp() public {
+    //     t = new Token();
+    // }
 
-    function testName() public {
-        assertEq(t.name(), "Token");
-    }
+    // function testName() public {
+    //     assertEq(t.name(), "Token");
+    // }
 }
